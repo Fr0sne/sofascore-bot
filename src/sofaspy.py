@@ -17,18 +17,6 @@ from queue import Queue
 from pathlib import Path
 
 
-print("Sofaspy v2.6.0")
-print("==============================")
-print("[*] Remoção do Sleep entre o inicio das Threads Principais.")
-print("[*] Mensagem para checar se o tempo está certo.")
-print("[*] Remoção da Queue de jogos armazenados.")
-print("[*] Jogos agora são consultados dentro do loop for de liveGames.")
-print("[*] Command Line removido/comentado.")
-print("[*] Os campos de período não passam mais por tratativas, são analisados cruamente")
-print("[*] Os campos de período agora são analisados pelo objeto status.description, não mais pelo campo 'lastPeriod'.")
-print("[*] Pausa de 8s à cada 30 proxies para evitar sobrecarga de tarefas.")
-print("[*] Mais um site adicionado à bibliotecas de busca de proxies (free-proxy.cz).")
-print("==============================\n")
 verbose = False
 if "-v" in argv:
     print(f"[!] Verbose ligado.")
