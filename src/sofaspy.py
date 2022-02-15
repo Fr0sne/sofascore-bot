@@ -17,7 +17,7 @@ from queue import Queue
 from pathlib import Path
 
 
-print("Sofaspy v2.6.0 - Unstable [01/12/2021]")
+print("Sofaspy v2.6.0")
 print("==============================")
 print("[*] Remoção do Sleep entre o inicio das Threads Principais.")
 print("[*] Mensagem para checar se o tempo está certo.")
