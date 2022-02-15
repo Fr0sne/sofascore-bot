@@ -38,7 +38,7 @@ gamelistCompress = [] # Lista com todos os dados dos jogos ao vivo (chaveado por
 # ETags
 etag = {}
 
-token = "2070425936:AAFwmuDYzB3TMZp56MnDdpndxNymPkhq158"
+token = "TOKEN"
 telebot = sofasgram.Bot(token)
 
 
