@@ -8,7 +8,7 @@ Abra o arquivo com um editor de texto e altere o Token para o Token do seu Bot d
 token = "TOKEN"
 telebot = sofasgram.Bot(token)
 ```
-Para executar o programa:
+
 Execute o programa da seguinte forma:
 ```bash
 cd ./src/
